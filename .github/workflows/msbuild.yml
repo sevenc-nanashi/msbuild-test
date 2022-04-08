@@ -23,4 +23,5 @@ jobs:
     
     - name: build
       run: |
+        cd opus
         msbuild win32\VS2015\opus.vcxproj -property:Configuration=ReleaseDLL
